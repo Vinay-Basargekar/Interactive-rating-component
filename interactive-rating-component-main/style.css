@@ -3,12 +3,17 @@
 body {
 	background: hsl(216, 12%, 8%);
     font-family: "Overpass", sans-serif;
+
+    /* To center a content */
+    min-height: 100vh;
+    display: flex;  /* it works with grid too  */
+    justify-content: center;
+    align-items: center;
 }
 
 #card {
 	background: #19202a;
 	width: 25rem;
-	margin: 10rem auto;
 	border-radius: 2rem;
 }
 .container {
@@ -95,7 +100,6 @@ body {
 	background: #19202a;
     display: none;
 	width: 25rem;
-	margin: 10rem auto;
 	border-radius: 2rem;
     h1{
         color: #fff;

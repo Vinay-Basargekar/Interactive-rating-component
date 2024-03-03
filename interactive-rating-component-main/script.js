@@ -15,7 +15,6 @@ buttons.forEach((button) => {
 });
 
 submit.addEventListener("click", () => {
-    // success.classList.add(".visible");
 	rating.textContent = value;
 	card.style.display = "none";
 	success.style.display = "flex";
