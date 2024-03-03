@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body {
+	background: hsl(216, 12%, 8%);
+    font-family: "Overpass", sans-serif;
+}
+
+#card {
+	background: #19202a;
+	width: 25rem;
+	margin: 10rem auto;
+	border-radius: 2rem;
+}
+.container {
+	padding: 2rem;
+}
+
+.span__value{
+    margin-left: 4px;
+    margin-right: 2px;
+}
+
+.heading {
+	color: hsl(0, 0%, 100%);
+	
+}
+.para {
+	color: hsl(216, 12%, 54%);
+	
+}
+.star {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #252d37;
+	display: flex;
+    justify-content: center;
+	img {
+        width: auto;
+        height: 20px;
+		display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 14px;
+	}
+}
+.number {
+	display: flex;
+	justify-content: center;
+    padding: 0%;
+	list-style: none;
+	li {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+		background-color: #252d37;
+		color: white;
+        margin: 0 10px;
+	}
+}
+
+#card li:hover {
+	background-color: #959eac;
+}
+
+#card .list__change {
+	background-color: #fb7413;
+}
+
+.submit {
+	height: 4rem;
+	width: 100%;
+	border-radius: 2rem;
+	background-color: #fb7413;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	color: #fff;
+}
+.submit:hover{
+    background-color: #fff;
+    color: #fb7413;
+}
+
+#card .list__change{
+    background: #fb7413;
+}
+
+.success{
+	background: #19202a;
+    display: none;
+	width: 25rem;
+	margin: 10rem auto;
+	border-radius: 2rem;
+    h1{
+        color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+}
+.success_img{
+    display: flex;
+    justify-content: center;
+}
+.success__value{
+    background: #252d37;
+    color: #fb7413;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 12rem;
+    border-radius: 16px;
+    font-weight: 900;
+    margin-left: 5rem;
+}
+.success__bottom{
+    color: hsl(216, 12%, 54%);
+}
