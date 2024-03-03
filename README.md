@@ -4,5 +4,5 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshot
 
-![](./images/card.jpeg)
-![](./images/Success_page.jpeg)
+![](./card.jpeg)
+![](./Success_page.jpeg)
